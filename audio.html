@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-size: 50;
+    }
+    .image-container {
+    border-radius: 10px; /* Round corners */ 
+}
+
+/* Style the image itself */
+.image-container img {
+    max-width: 100%; /* Ensure the image scales responsively */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 15px; /* Rounded corners on the image */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for effect */
+}
+
+/* Add hover effect */
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Bigger shadow on hover */
+}
+
+.audio-player {
+    justify-content: center;  
+}
+
+
+</style>
+<body>
+    <h1>Audio Player</h1>
+    <div class="audio-player">
+    <div class="image-container">
+    <img src="https://th.bing.com/th/id/OIP.EzVp_g95HbkRe98atZ-KbgHaEK?rs=1&pid=ImgDetMain.img" alt="Arijit Singh" height="200" width="300">
+      <audio controls>    
+            <source src="//pagalworld4u.com/wp-content/uploads/2025/01/Bekhayali%20(Arijit%20Singh%20Version)%20-%20Kabir%20Singh%20(128%20kbps).mp3" type="audio/mp3">
+    </audio></div>
+    <a href="https://youtu.be/VOLKJJvfAbg?si=awBNFQn9ZMTNvhn0" target="_blank">Click here to watch the video!</a>
+    <br><br><br>
+
+    <div class="image-container">
+    <img src="https://assets.telegraphindia.com/telegraph/2021/Sep/1631127453_anupam-roy.jpg" alt="Anupam Roy" height="200" width="300">
+        <audio controls>
+            <source src="https://mr-jat.in/dlod/569?&volume=75&showstop=1&showvolume=1.mp3" type="audio/mp3">     
+        </audio></div>
+        <a href="https://youtu.be/LkUqqoKB4rM?si=Ive73kLD3zz8aUNY" target="_blank">Click here to watch the video!</a>
+        <br><br><br>
+
+    
+    <div class="image-container">
+    <img src="https://i.pinimg.com/736x/80/5d/13/805d13f88012ab2e88e543175bf0bf52.jpg" alt="Shreya Ghoshal" height="200" width="300">
+        <audio controls>
+            <source src="https://mr-jat.in/dlod/1718?&volume=75&showstop=1&showvolume=1.mp3" type="audio/mp3">        
+        </audio>
+        <a href="//youtu.be/uo87VC3pyW0?si=5WLCOjAKxhXBqwVA" target="_blank">Click here to watch the video!</a>
+    </div>
+    </div>
+
+    <!--video
+    <video width="320" height="240" controls>
+        <source src="https://youtu.be/buk1pUFKeLI?si=DoBQCxi5-eAdrvp7.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>-->
+</body>
+</html>
